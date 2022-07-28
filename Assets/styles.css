@@ -1,49 +1,164 @@
 /* Cursor needs to become pointer on all clickable links */
-
-:root {
-    --link-color:rgb(142, 243, 167);
-}
-
+/* Nav bar should float when user scrolls */
+/* Look into changing clickable link colors and creating hover effects for buttons */
+/* Find and background photo rather than styling entire page BG to match color scheme*/
 * {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight:lighter;
-    background-color: rgb(153, 104, 153);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
     /* need url for bg image, or filepath */
-    background-image: url();
+
+
+
 }
 
+.navbar {}
 
 .navbar ul {
     list-style-type: none;
     display: flex;
-    justify-content:flex-end;
-    color: var(--link-color); 
+    justify-content: space-between;
+    background-image: ;
     background-color: rgb(52, 141, 219);
-    font-weight:800;
-    font-size:large;
+    font-weight: 800;
+    font-size: large;
 
 }
 
 .navbar ul li {
-    margin:15px 20px 15px 20px;
-    /* link color not working */
-    
+    margin: 15px 20px;
 }
 
-
 .header {
-    padding: 10px;
-    background-color:blueviolet;
-    font-weight: 1000;   
+    margin: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#portfolio {
+    margin: auto;
+}
+
+.bio {
+    display: flex;
+    text-wrap: wrap;
+    font-size: 28px;
+    padding: 5px;
+    margin: 15px;
+    justify-content: center;
+    max-width: fit-content;
+    max-height: fit-content;
+
 }
 
 .tagline {
-    display:right;
-    justify-content:right;
+    display: flex;
+    justify-content: center;
     padding: 10px;
-    background-color:rgb(97, 59, 133);
+    color: aliceblue;
+    background-color: rgb(106, 77, 134);
     font-weight: 1000;
 }
-cursor: pointer;
+
+body {
+    background-color: #b6b8b5
+}
+
+/* project1 */
+.horiseon {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("https://via.placeholder.com/800");
+    background-size: cover;
+    background-position: center;
+    color:darkgreen;
+}
 
 
+
+/* future project formatting and placeholders */
+.futureproject01 {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("https://via.placeholder.com/800");
+    background-size: cover;
+    background-position: center;
+    color: rgb(247, 108, 108);
+}
+
+.futureproject01 p {
+    font-size: smaller;
+    font-weight: bolder;
+}
+
+
+.futureproject02 {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("https://via.placeholder.com/800");
+    background-size: cover;
+    background-position: center;
+    color: rgb(151, 146, 75);
+}
+
+.futureproject02 p {
+    font-size: smaller;
+    font-weight: bolder;
+}
+
+.futureproject03 {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("https://via.placeholder.com/800");
+    background-size: cover;
+    background-position: center;
+    color: rgb(10, 10, 10);
+}
+
+.futureproject03 p {
+    font-size: smaller;
+    font-weight: bolder;
+}
+
+
+.footer {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 25px;
+    font-weight: 1000;
+    font-size:20px;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    color: rgb(31, 31, 31);
+    margin: 20px;
+    padding: 10px;
+}
+
+.footer ul {
+    list-style-type: none;
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(52, 141, 219);
+    color: white;
+    text-align: center;
+}
+
+/* have screen scale */
+@media screen and (max-width: 650px) {
+    .bio {
+        width: 100%;
+        display: block;
+    }
