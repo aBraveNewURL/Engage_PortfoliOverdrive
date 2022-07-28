@@ -1,1 +1,49 @@
 /* Cursor needs to become pointer on all clickable links */
+
+:root {
+    --link-color:rgb(142, 243, 167);
+}
+
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:lighter;
+    background-color: rgb(153, 104, 153);
+    /* need url for bg image, or filepath */
+    background-image: url();
+}
+
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content:flex-end;
+    color: var(--link-color); 
+    background-color: rgb(52, 141, 219);
+    font-weight:800;
+    font-size:large;
+
+}
+
+.navbar ul li {
+    margin:15px 20px 15px 20px;
+    /* link color not working */
+    
+}
+
+
+.header {
+    padding: 10px;
+    background-color:blueviolet;
+    font-weight: 1000;   
+}
+
+.tagline {
+    display:right;
+    justify-content:right;
+    padding: 10px;
+    background-color:rgb(97, 59, 133);
+    font-weight: 1000;
+}
+cursor: pointer;
+
+
