@@ -10,3 +10,4 @@ Used personal photos as background and placeholders for more fine-tuned and appr
 URL to the project:
 https://github.com/aBraveNewURL/MySecondRodeo.git
 
+![screengrab](https://user-images.githubusercontent.com/108553499/182501961-5ac641e1-17eb-4e1f-8c61-4c4658a43992.jpg)
